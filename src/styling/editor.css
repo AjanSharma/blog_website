@@ -1,0 +1,36 @@
+.form-parent {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+.posttitle-core {
+    width: 100%;
+    border-radius: 2rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.shortdesc-core {
+    width: 100%;
+    border-radius: 2rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.category-core {
+    width: 100%;
+    border-radius: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.btn-save {
+    border-radius: 2rem;
+    margin-top: 2%;
+    padding: 1%;
+}
+
+.btn-box {
+    text-align: center;
+}

@@ -1,0 +1,120 @@
+.flex-container-parent {
+    /* display: flex; */
+    /* background-color: rgb(137, 140, 139); */
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    /* border: 1px solid red; */
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.flex-container-logo  {
+    /* border: 1px solid rgb(1, 18, 23); */
+}
+
+.flex-container-options {
+    /* border: 1px solid orange; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-self: end;
+    gap: 5px 90px;
+    /* display: flex;
+    align-content: flex-end; */
+}
+
+.flex-container-options-items {
+    /* border: 1px solid blue; */
+    /* justify-self: end; */
+    align-self: end;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+/* =================================Media Queries (Medium Devices) ===============================*/
+
+@media screen and (max-width: 1024px) {
+    .flex-container-options {
+        /* border: 1px solid orange; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        justify-self: end;
+        gap: 5px 40px;
+        /* display: flex;
+        align-content: flex-end; */
+    }
+}
+
+/* =================================Media Queries (Small Devices) ===============================*/
+
+ @media screen and (max-width: 600px) {
+    /* .flex-container-parent {
+        display: grid;
+        grid-template-columns: 2fr 5fr;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .editor-option {
+        display: none;
+    }
+
+    .flex-container-options {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-self: end;
+        gap: 5px 20px;
+    }
+
+    .flex-container-logo  {
+        font-size: 10px;
+    } */
+
+    .flex-container-parent {
+        display: grid;
+        grid-template-columns: 2fr 5fr;
+        padding-left: 2%;
+        padding-right: 2%;
+        border: 1px solid green;
+    }
+    .flex-container-options-items {
+        
+        /* justify-self: end; */
+        display: none;
+    }
+
+    .flex-container-options {
+        grid-template-columns: 1fr;
+    }
+    
+    .hamburger-icon {
+        /* border: 1px solid blue; */
+        display: grid;
+        justify-content: end;
+        align-items: center;
+    }
+    .flex-container-logo  {
+        font-size: 10px;
+    } 
+
+    .hamburger {
+        /* border: 2px solid red; */
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .flex-container-options-hamburger-items {
+        /* border: 2px solid blue; */
+        justify-self: center;
+    }
+    
+    
+
+
+
+ }
